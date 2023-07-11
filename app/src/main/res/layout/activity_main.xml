@@ -8,6 +8,8 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:onClick="onDecimalPoint"
+        android:id="@+id/tvInput"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2.8"
@@ -15,7 +17,6 @@
         android:gravity="end|bottom"
         android:paddingHorizontal="40dp"
         android:paddingVertical="15dp"
-        android:text="26+35"
         android:textColor="@color/white"
         android:textSize="70dp" />
 
@@ -36,6 +37,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <Button
+                android:onClick="onClear"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:background="@drawable/round_button"
@@ -90,6 +92,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <Button
+                android:onClick="onOperator"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:background="@drawable/round_button"
@@ -102,6 +105,7 @@
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.appcompat.widget.LinearLayoutCompat
+        android:onClick="onOperator"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -117,6 +121,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <Button
+                android:onClick="onDigit"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:background="@drawable/round_button"
@@ -133,6 +138,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <Button
+                android:onClick="onDigit"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:background="@drawable/round_button"
@@ -149,6 +155,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <Button
+                android:onClick="onDigit"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:background="@drawable/round_button"
@@ -165,6 +172,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <Button
+                android:onClick="onOperator"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:background="@drawable/round_button"
@@ -192,6 +200,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <Button
+                android:onClick="onDigit"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:background="@drawable/round_button"
@@ -208,6 +217,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <Button
+                android:onClick="onDigit"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:background="@drawable/round_button"
@@ -224,6 +234,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <Button
+                android:onClick="onDigit"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:background="@drawable/round_button"
@@ -240,6 +251,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <Button
+                android:onClick="onOperator"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:background="@drawable/round_button"
@@ -267,6 +279,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <Button
+                android:onClick="onDigit"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:background="@drawable/round_button"
@@ -283,6 +296,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <Button
+                android:onClick="onDigit"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:background="@drawable/round_button"
@@ -299,6 +313,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <Button
+                android:onClick="onDigit"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:background="@drawable/round_button"
@@ -315,6 +330,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <Button
+                android:onClick="onOperator"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:background="@drawable/round_button"
@@ -342,6 +358,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <Button
+                android:onClick="onDigit"
                 android:layout_width="168dp"
                 android:layout_height="75dp"
                 android:background="@drawable/round_button"
@@ -360,6 +377,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <Button
+                android:onClick="onDecimalPoint"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:background="@drawable/round_button"
@@ -376,6 +394,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <Button
+                android:onClick="onEqual"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:background="@drawable/round_button"
